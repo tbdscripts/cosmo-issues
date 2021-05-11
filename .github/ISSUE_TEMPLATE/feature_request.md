@@ -1,19 +1,19 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: 🌟 Feature request
+about: Suggest a feature for the product
 title: ''
-labels: ''
+labels: 'feature'
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
+**Describe the feature you'd like to see in Cosmo.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Describe the solution you'd like**
+**Give examples of the feature (screenshots, etc.). If applicable.**
 A clear and concise description of what you want to happen.
 
-**Describe alternatives you've considered**
+**Are there any alternatives for this feature? If so, list them here.**
 A clear and concise description of any alternative solutions or features you've considered.
 
 **Additional context**

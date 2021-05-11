@@ -1,14 +1,18 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: 🐛 Bug report
+about: Create a report to help us improve our product
 title: ''
-labels: ''
+labels: 'bug'
 assignees: ''
 
 ---
 
 **Describe the bug**
 A clear and concise description of what the bug is.
+
+**Error**
+If report is regarding the web application, present the error code given when the error occurred.
+If the error is regarding an integration of Cosmo (for example, Garry's Mod). Paste the **full** error in a code block.
 
 **To Reproduce**
 Steps to reproduce the behavior:
@@ -26,12 +30,6 @@ If applicable, add screenshots to help explain your problem.
 **Desktop (please complete the following information):**
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
 
 **Additional context**

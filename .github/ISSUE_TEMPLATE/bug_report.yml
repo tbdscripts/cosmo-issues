@@ -8,6 +8,22 @@ labels: 'bug'
 body:
 - type: textarea
   attributes:
+    label: Description of the bug
+    description: |
+    If report is regarding the web application, present the error code given when the error occurred.
+    If the error is regarding an integration of Cosmo (for example, Garry's Mod). Paste the full error in a code block.
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: Error
+    description: Clearly and concisely describe the bug you have found.
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
     label: How do you reproduce this bug?
     description: Explain in clear steps how you encounered the bug.
   validations:

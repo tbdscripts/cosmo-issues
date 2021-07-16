@@ -9,7 +9,7 @@ body:
 - type: textarea
   attributes:
     label: Description of the bug
-    description: |
+    description:
     - If report is regarding the web application, present the error code given when the error occurred.
     - If the error is regarding an integration of Cosmo (for example, Garry's Mod). Paste the full error in a code block.
   validations:

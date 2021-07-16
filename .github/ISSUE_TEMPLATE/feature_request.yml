@@ -1,10 +1,10 @@
----
+
 name: 🌟 Feature request
 description: Suggest a feature for the product
 title: '[FEAT] <title>'
 labels: 'feature'
 
----
+
 body:
 - type: textarea
   attributes:
@@ -13,21 +13,21 @@ body:
   validations:
     required: true
     
- - type: textarea
+- type: textarea
   attributes:
     label: Examples of the feature
     description: A clear and concise description of the feature, and screenshots if applicable.
   validations:
     required: true
 
- - type: textarea
+- type: textarea
   attributes:
     label: Alternatives for the feature
     description: List and explain any alternatives for the feature or other features you have considerd.
   validations:
     required: true
     
- - type: textarea
+- type: textarea
   attributes:
     label: Additional Context
     description: Any other info, context or screenshots about the feature.

@@ -5,7 +5,7 @@ title: '[FEAT] <title>'
 labels: 'feature'
 
 ---
-
+body:
 - type: textarea
   attributes:
     label: Description of the feature

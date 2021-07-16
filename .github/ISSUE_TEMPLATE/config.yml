@@ -1,0 +1,9 @@
+
+blank_issues_enabled: false
+contact_links:
+  - name: Open a Cosmo Ticket
+    url: https://www.gmodstore.com/help/tickets/create/addon/7488
+    about: Open a ticket for urgent help, or bigger script issues.
+  - name: TBD Scripts Discord
+    url: https://discord.gg/BDUevy7b8w
+    about: Join the Discord for support.

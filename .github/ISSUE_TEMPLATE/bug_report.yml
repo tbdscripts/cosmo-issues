@@ -10,14 +10,14 @@ body:
 - type: textarea
   attributes:
     label: Description of the bug
-    description: Present the error code for the web application, or any errors relating to an integration. (e.g Garry's Mod)
+    description: Clearly and concisely describe the bug you have found.
   validations:
     required: true
     
 - type: textarea
   attributes:
     label: Error
-    description: Clearly and concisely describe the bug you have found.
+    description: Present the error code for the web application, or any errors relating to an integration. (e.g Garry's Mod)
   validations:
     required: true
     

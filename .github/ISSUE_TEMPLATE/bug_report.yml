@@ -1,6 +1,6 @@
 ---
 name: 🐛 Bug report
-about: Create a report to help us improve our product
+description: Create a report to help us improve our product
 title: '[BUG] <title>'
 labels: 'bug'
 

@@ -6,12 +6,11 @@ labels: 'bug'
 
 
 body:
+
 - type: textarea
   attributes:
     label: Description of the bug
-    description:
-    - If report is regarding the web application, present the error code given when the error occurred.
-    - If the error is regarding an integration of Cosmo (for example, Garry's Mod). Paste the full error in a code block.
+    description: Present the error code for the web application, or any errors relating to an integration. (e.g Garry's Mod)
   validations:
     required: true
     

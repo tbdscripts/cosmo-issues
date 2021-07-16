@@ -39,6 +39,6 @@ body:
 - type: textarea
   attributes:
     label: Additional Information
-    description: Any other information regarding the issue
+    description: Any other information regarding the issue.
   validations:
     required: false

@@ -19,7 +19,7 @@ body:
     label: Error
     description: Present the error code for the web application, or any errors relating to an integration. (e.g Garry's Mod)
   validations:
-    required: true
+    required: false
     
 - type: textarea
   attributes:

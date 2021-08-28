@@ -1,8 +1,6 @@
-
 name: 🐛 Bug report
 description: Tell us about bugs you have found in Cosmo.
 labels: 'bug'
-
 
 body:
 

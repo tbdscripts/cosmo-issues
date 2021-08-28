@@ -18,6 +18,7 @@ body:
   attributes:
     label: Error
     description: Present the error code for the web application, or any errors relating to an integration. (e.g Garry's Mod)
+    placeholder: I got this error...
   validations:
     required: false
     
@@ -52,5 +53,6 @@ body:
   attributes:
     label: Additional Information
     description: Any other information, screenshots or regarding the issue.
+    placeholder: Here are some screenshots...
   validations:
     required: false

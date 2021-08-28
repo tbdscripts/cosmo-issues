@@ -10,6 +10,7 @@ body:
   attributes:
     label: Description of the bug
     description: Clearly and concisely describe the bug you have found.
+    placeholder: The bug I have found is...
   validations:
     required: true
     
@@ -24,6 +25,7 @@ body:
   attributes:
     label: How do you reproduce this bug?
     description: Explain in clear steps how you encounered the bug.
+    placeholder: To reproduce the bug...
   validations:
     required: true
     
@@ -31,20 +33,15 @@ body:
   attributes:
     label: Expected Behaviour
     description: A clear and concise description of what you expected to happen.
+    placeholder: I expected Cosmo to...
   validations:
     required: true
-    
-- type: textarea
-  attributes:
-    label: Screenshots
-    description: If applicable, add screenshots to help explain your problem.
-  validations:
-    required: false
 
 - type: textarea
   attributes:
     label: Website Environment
-    description: |
+    description: Specifics about Cosmo's Environment
+    value: |
      - PHP Version: [e.g. 7.4]
      - Database driver (please include the version aswell): [e.g. MySQL 5.8, MariaDB 10.6]
      - Application Version: [e.g. 1.2.5]
@@ -54,6 +51,6 @@ body:
 - type: textarea
   attributes:
     label: Additional Information
-    description: Any other information regarding the issue.
+    description: Any other information, screenshots or regarding the issue.
   validations:
     required: false

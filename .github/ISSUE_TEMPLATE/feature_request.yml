@@ -23,7 +23,7 @@ body:
 - type: textarea
   attributes:
     label: Alternatives for the feature
-    description: List and explain any alternatives for the feature or other features you have considerd.
+    description: Any alternative options for this feature, or products that do this
   validations:
     required: true
     

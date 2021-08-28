@@ -11,8 +11,8 @@ body:
     placeholder: The bug I have found is...
   validations:
     required: true
-    
- - type: textarea
+     
+- type: textarea
   attributes:
     label: Expected Behaviour
     description: A clear and concise description of what you expected to happen.

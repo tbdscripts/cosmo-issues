@@ -17,6 +17,7 @@ body:
   attributes:
     label: Examples of the feature
     description: A clear and concise description of the feature, and screenshots if applicable.
+    placeholder: It could work like this...
   validations:
     required: true
 
@@ -24,6 +25,7 @@ body:
   attributes:
     label: Alternatives for the feature
     description: Any alternative options for this feature, or products that do this
+    placeholder: Another way of achieving this is...
   validations:
     required: false
     

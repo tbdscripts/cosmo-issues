@@ -25,11 +25,11 @@ body:
     label: Alternatives for the feature
     description: Any alternative options for this feature, or products that do this
   validations:
-    required: true
+    required: false
     
 - type: textarea
   attributes:
     label: Additional Context
     description: Any other info, context or screenshots about the feature.
   validations:
-    required: true
+    required: false

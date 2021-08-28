@@ -1,6 +1,6 @@
 
 name: 🐛 Bug report
-description: Create a report to help us improve our product
+description: Tell us about bugs you have found in Cosmo.
 labels: 'bug'
 
 
@@ -14,11 +14,11 @@ body:
   validations:
     required: true
     
-- type: textarea
+ - type: textarea
   attributes:
-    label: Error
-    description: Present the error code for the web application, or any errors relating to an integration. (e.g Garry's Mod)
-    placeholder: I got this error...
+    label: Expected Behaviour
+    description: A clear and concise description of what you expected to happen.
+    placeholder: I expected Cosmo to...
   validations:
     required: false
     
@@ -30,13 +30,6 @@ body:
   validations:
     required: true
     
-- type: textarea
-  attributes:
-    label: Expected Behaviour
-    description: A clear and concise description of what you expected to happen.
-    placeholder: I expected Cosmo to...
-  validations:
-    required: true
 
 - type: textarea
   attributes:
@@ -52,7 +45,7 @@ body:
 - type: textarea
   attributes:
     label: Additional Information
-    description: Any other information, screenshots or regarding the issue.
-    placeholder: Here are some screenshots...
+    description: Any other information, errors or screenshots
+    placeholder: I got the following error...
   validations:
     required: false

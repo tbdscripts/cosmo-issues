@@ -1,7 +1,6 @@
 
 name: 🌟 Feature request
-description: Suggest a feature for the product
-title: '<title>'
+description: Suggest a feature for Cosmo.
 labels: 'feature'
 
 
@@ -9,7 +8,8 @@ body:
 - type: textarea
   attributes:
     label: Description of the feature
-    description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+    description: A clear and concise description of what the problem is.
+    placeholder: I would like to see...
   validations:
     required: true
     
@@ -17,19 +17,21 @@ body:
   attributes:
     label: Examples of the feature
     description: A clear and concise description of the feature, and screenshots if applicable.
+    placeholder: It could work like this...
   validations:
     required: true
 
 - type: textarea
   attributes:
     label: Alternatives for the feature
-    description: List and explain any alternatives for the feature or other features you have considerd.
+    description: Any alternative options for this feature, or products that do this
+    placeholder: Another way of achieving this is...
   validations:
-    required: true
+    required: false
     
 - type: textarea
   attributes:
     label: Additional Context
     description: Any other info, context or screenshots about the feature.
   validations:
-    required: true
+    required: false

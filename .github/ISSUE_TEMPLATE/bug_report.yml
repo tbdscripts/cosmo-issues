@@ -6,7 +6,7 @@ body:
 
 - type: textarea
   attributes:
-    label: Description of the bug
+    label: ❌ Description of the bug
     description: Clearly and concisely describe the bug you have found.
     placeholder: The bug I have found is...
   validations:
@@ -14,7 +14,7 @@ body:
      
 - type: textarea
   attributes:
-    label: Expected Behaviour
+    label: ✔ Expected Behaviour
     description: A clear and concise description of what you expected to happen.
     placeholder: I expected Cosmo to...
   validations:
@@ -22,7 +22,7 @@ body:
     
 - type: textarea
   attributes:
-    label: How do you reproduce this bug?
+    label: ✨ How do you reproduce this bug?
     description: Explain in clear steps how you encounered the bug.
     placeholder: To reproduce the bug...
   validations:
@@ -31,7 +31,7 @@ body:
 
 - type: textarea
   attributes:
-    label: Website Environment
+    label: 🌳 Website Environment
     description: Specifics about Cosmo's Environment
     value: |
      - PHP Version: [e.g. 7.4]
@@ -42,7 +42,7 @@ body:
     
 - type: textarea
   attributes:
-    label: Additional Information
+    label: 📋 Additional Information
     description: Any other information, errors or screenshots
     placeholder: I got the following error...
   validations:

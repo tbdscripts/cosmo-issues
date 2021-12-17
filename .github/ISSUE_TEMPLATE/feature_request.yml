@@ -15,7 +15,7 @@ body:
     
 - type: textarea
   attributes:
-    label:  Examples of the feature
+    label: ❗ Examples of the feature
     description: A clear and concise description of the feature, and screenshots if applicable.
     placeholder: It could work like this...
   validations:
